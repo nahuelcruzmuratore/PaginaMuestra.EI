@@ -1,0 +1,123 @@
+/* seccion inicio */
+.img-inicio {
+    background-image: url(img/trabajo-juntos.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.title {
+    text-align: center;
+    color: #0893ff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 6px;
+    font-weight: 600;
+    text-shadow: 2px 3px black;
+}
+
+.texto {
+    margin: 30px;
+    font-size: 1.8rem;
+    color: white;
+}
+
+/* seccion quienes */
+#quienes {
+    min-height: 70vh;
+    background-color: #6d3f7b;
+}
+
+.carousel-item {
+    border: 2px solid #0893ff;
+    height: 100%;
+    min-height: 500px;
+    background: no-repeat center center scroll;
+    border-radius: 15px;
+    /*  terminaciones circular */
+    -webkit-background-size: cover;
+
+}
+
+/* busqueda de imagenes para carousel  */
+.imagencarousel1 {
+    background-image: url(img/car1.jpg);
+}
+
+.imagencarousel2 {
+    background-image: url(img/car3.jpg);
+}
+
+.imagencarousel3 {
+    background-image: url(img/car4.jpg);
+}
+
+.imagencarousel4 {
+    background-image: url(img/car\ 2.jpg);
+}
+
+
+/* seccion programas */
+
+#programas {
+    height: auto;
+    width: auto;
+
+}
+
+.title-card {
+    color: #0893ff;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.card-text {
+    text-align: center;
+    font-size: 25px;
+}
+
+.borde-card {
+    border: 3px solid #0893ff;
+    border-radius: 15px;
+
+}
+
+
+/* profesionales */
+
+#profesionales {
+    height: auto;
+    background-color: #6f519c;
+    padding-bottom: 30px;
+}
+
+.card-img-top {
+    height: 15vw;
+    background-position: center;
+    object-fit: cover;
+    width: 90%;
+}
+
+.nombre-pro {
+    font-size: 1.6rem;
+    color: #6f519c;
+}
+
+@media (max-width :768px) {
+    .card-img-top {
+        height: 50vh;
+    }
+}
+
+
+
+/* donde encontrarnos */
+
+iframe {
+    width: 80%;
+    height: auto;
+aspect-ratio: 16/9;
+}
